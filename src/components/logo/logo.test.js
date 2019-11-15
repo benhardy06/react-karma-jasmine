@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from "react-dom";
 import { shallow } from '../../../spec/helpers/enzyme'
 import { findTestAtrr } from '../../../spec/utils'
 import Logo from './index'
@@ -15,7 +14,7 @@ describe("Logo", function() {
     let component;
 
   beforeEach(()=>{
-    component = setUp()
+    component = setUp() 
   })
 
     it("should render without errors", function() {
@@ -26,6 +25,4 @@ describe("Logo", function() {
       const wrapper = findTestAtrr(component,'logo')
       expect(wrapper.length).toBe(1)
     })
-
-
   });  

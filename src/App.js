@@ -1,9 +1,9 @@
 import React from 'react';
-import Logo from './components/logo'
+import MenuBar from './components/menuBar'
 function App() {
   return (
     <div className="App">
-      <Logo/>
+      <MenuBar />
     </div>
   );
 }
