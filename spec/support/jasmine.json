@@ -1,0 +1,12 @@
+{
+  "spec_dir": "src/components",
+  "spec_files": [
+    "**/*.test.*"
+  ],
+  "helpers": [
+    "helpers/babel.js",
+    "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": true
+}
