@@ -10,7 +10,7 @@ export default class MenuNav extends React.Component{
 
     render(){
         return (
-            <nav>
+            <nav data-test="navigation">
                <a href="/html/">Link 1</a> 
                <a href="/html/">Link 2</a> 
                <a href="/html/">Link 3</a> 
