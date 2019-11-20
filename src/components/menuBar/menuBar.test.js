@@ -7,8 +7,6 @@ const setUp = (props={})=>{
     const component = shallow(<MenuBar />)
     return component;
   }
-
-
   describe("Menu Bar", ()=>{
     let component;
     beforeEach(()=>{

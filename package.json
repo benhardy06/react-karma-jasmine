@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "check-prop-types": "^1.1.2",
+    "prop-types": "^15.7.2"
   }
 }

@@ -8,9 +8,14 @@ export default function MenuBar(props) {
             <div className="menuLogo" data-test="menuLogo">
                 <Logo />
                 
-            </div>
+            </div> 
             <div className="menuNav" data-test="menuNav">
-                <MenuNav />
+                <MenuNav links={['Link 1','Link 2','Link 3','Link 4','Link 5']} />
+                
+            </div>
+            <div className="menuSignIn" data-test="menuSignIn">
+                <MenuNav links={['Shop', 'Sign In']} />
+                
             </div>
         </div>
     )

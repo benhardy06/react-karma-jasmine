@@ -7,3 +7,7 @@ nav a{
     color:#333;
     font-weight:500
 }
+
+nav a.clicked-state{
+     color:lightgrey;
+ }

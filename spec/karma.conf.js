@@ -34,7 +34,7 @@ module.exports = function (config) {
     },
 
     webpack: {
-      mode: 'production',
+      mode: 'development',
       module: {
         rules: [{
             test: /\.(css|png|svg|jpg)$/,
