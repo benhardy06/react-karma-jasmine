@@ -12,8 +12,6 @@ const setUp = (props = {}) => {
   const component = shallow( < MenuNav {...props} / > )
   return component;
 }
-
-
 describe("Menu Navigation", () => {
   describe('Checking Proptypes', ()=>{
     it('should not throw an error', ()=>{
@@ -23,7 +21,6 @@ describe("Menu Navigation", () => {
       expect(checkProps(MenuNav, expectedProps)).toBeUndefined()
     })
   })
-
   describe('Have Props', () => {
     let component;
     let props = {links:['test 1', 'test 2']}
