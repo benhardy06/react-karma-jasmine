@@ -11,7 +11,7 @@ class SideNav extends React.Component{
     render(){
 
         return (
-            <div className="side-nav-icon"></div>
+            <div className="side-nav-icons"><div className="side-nav"></div></div>
         )
     }
 }
