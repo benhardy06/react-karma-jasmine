@@ -46,7 +46,7 @@
     "ignore-styles": "^5.0.1",
     "jasmine": "^3.5.0",
     "jasmine-enzyme": "^7.1.2",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "karma": "^4.4.1",
     "karma-babel-preprocessor": "^8.0.1",
     "karma-chrome-launcher": "^3.1.0",
